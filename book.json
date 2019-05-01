@@ -3,7 +3,6 @@
   "description": "微信小程序开发教程",
   "language": "zh",
   "plugins": [
-    "disqus",
     "github",
     "editlink",
     "prism",
@@ -41,9 +40,6 @@
             "facebook": false,
             "twitter": false,
             "all": false
-        },
-        "disqus": {
-          "shortName": "webpack-handbook"
         },
         "github": {
           "url": "https://github.com/carlosxiao/miniprogram"
