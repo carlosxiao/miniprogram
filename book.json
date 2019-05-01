@@ -30,13 +30,13 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/lijiam"
+            "url": "https://github.com/carlosxiao"
         },
         "code": {
             "copyButtons": true
         },
         "tbfed-pagefooter": {
-            "copyright": "Copyright © lijiam 2019",
+            "copyright": "Copyright © carlosxiao 2019",
             "modify_label": "本书发布时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
