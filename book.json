@@ -50,13 +50,7 @@
     },
     "editlink": {
       "base": "https://github.com/carlosxiao/miniprogram",
-      "label": "编辑本页面"//内容顶部显示 编辑本页 链接。
-    },
-    "baidu": {
-        "token": "a9787f0ab45d5e237bab522431d0a7ec"//使用百度统计。
-    },
-    "sitemap": {
-        "hostname": "http://baidu.com/"//生成站点地图
+      "label": "编辑本页面"
     }
   }
 }
