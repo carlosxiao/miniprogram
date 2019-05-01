@@ -68,12 +68,5 @@
                 "flow": "typescript"
             }
         }
-    },
-    "styles": {
-        "website": "assets/styles/website.less",
-        "ebook": "assets/styles/ebook.less",
-        "pdf": "assets/styles/pdf.less",
-        "mobi": "assets/styles/mobi.less",
-        "epub": "assets/styles/epub.less"
     }
 }
