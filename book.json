@@ -1,6 +1,6 @@
 {
-  "title": "demo",
-  "description": "demo",
+  "title": "微信小程序开发教程",
+  "description": "微信小程序开发教程",
   "language": "zh",
   "plugins": [
     "disqus",
