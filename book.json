@@ -1,54 +1,79 @@
 {
-  "title": "微信小程序开发教程",
-  "description": "微信小程序开发教程",
-  "language": "zh",
-  "plugins": [
-    "github",
-    "editlink",
-    "prism",
-    "-highlight",
-    "baidu",
-    "splitter",
-    "sitemap",
-    "tbfed-pagefooter",
-    "fontsettings",
-    "simple-page-toc",
-    "links"
-  ],
-  "styles": {
-    "website": "styles/website.css"
-  },
-  "pluginsConfig": {
-    "tbfed-pagefooter": {
-        "copyright": "",
-        "modify_label": "该文件修订时间：",
-        "modify_format": "YYYY-MM-DD HH:mm:ss"
-    },
-    "fontsettings": {
-        "theme": "white",
-        "family": "serif",
-        "size": 12
-    },
-    "simple-page-toc": {
-        "maxDepth": 3,
-        "skipFirstH1": true
-    },
+    "title": "G笔记",
+    "description": "好记性不如G笔记",
+    "author": "lijiam",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
     "links": {
-        "gitbook": false,
-        "sharing": {
-            "google": false,
-            "facebook": false,
-            "twitter": false,
-            "all": false
-        },
+        "sidebar": {
+            "首页": "http://www.lijiam.com"
+        }
+    },
+    "plugins": [
+        "code",
+        "-search",
+        "search-pro",
+        "github",
+        "splitter",
+        "tbfed-pagefooter",
+        "donate",
+        "-sharing",
+        "sharing-plus",
+        "prism",
+        "-highlight",
+        "styles-less",
+        "toggle-chapters",
+        "multipart",
+        "ancre-navigation"
+    ],
+    "pluginsConfig": {
         "github": {
-          "url": "https://github.com/carlosxiao/miniprogram"
+            "url": "https://github.com/lijiam"
         },
-        
-        "editlink": {
-          "base": "https://github.com/carlosxiao/miniprogram",
-          "label": "编辑本页面"
-      }
+        "code": {
+            "copyButtons": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © lijiam 2019",
+            "modify_label": "本书发布时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "donate": {
+            "wechat": "/assets/images/wxpay.png",
+            "alipay": "/assets/images/alipay.png",
+            "title": "",
+            "button": "赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        },
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "weibo": true,
+            "qq": true,
+            "all": [
+                "douban",
+                "google",
+                "qzone",
+                "linkedin"
+            ]
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ],
+            "lang": {
+                "flow": "typescript"
+            }
+        }
+    },
+    "styles": {
+        "website": "assets/styles/website.less",
+        "ebook": "assets/styles/ebook.less",
+        "pdf": "assets/styles/pdf.less",
+        "mobi": "assets/styles/mobi.less",
+        "epub": "assets/styles/epub.less"
     }
-  }
 }
