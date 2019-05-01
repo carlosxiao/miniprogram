@@ -20,7 +20,7 @@
     "website": "styles/website.css"
   },
   "pluginsConfig": {
-     "tbfed-pagefooter": {
+    "tbfed-pagefooter": {
         "copyright": "",
         "modify_label": "该文件修订时间：",
         "modify_format": "YYYY-MM-DD HH:mm:ss"
@@ -41,16 +41,18 @@
             "facebook": false,
             "twitter": false,
             "all": false
-    },
-    "disqus": {
-      "shortName": "webpack-handbook"
-    },
-    "github": {
-      "url": "https://github.com/carlosxiao/miniprogram"
-    },
-    "editlink": {
-      "base": "https://github.com/carlosxiao/miniprogram",
-      "label": "编辑本页面"
+        },
+        "disqus": {
+          "shortName": "webpack-handbook"
+        },
+        "github": {
+          "url": "https://github.com/carlosxiao/miniprogram"
+        },
+        
+        "editlink": {
+          "base": "https://github.com/carlosxiao/miniprogram",
+          "label": "编辑本页面"
+      }
     }
   }
 }
