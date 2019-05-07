@@ -10,19 +10,29 @@
    >
    > **邮箱注意事项：邮箱不能是微信公众平台，开发平台注册过的邮箱，也不能是个人微信号绑定的邮箱**
    >
-   > ![1557064725461](../assets/images/1557064725461.png)
+   > ![4AEAAB76-7942-4AEF-B6DE-F49DAB7C9E76](../assets/images/4AEAAB76-7942-4AEF-B6DE-F49DAB7C9E76.png)
 
 2. 激活邮箱
 
+   ![F8124684-F8FE-476C-9950-3382A8DA93FA](../assets/images/F8124684-F8FE-476C-9950-3382A8DA93FA.png)
+
    进入邮箱激活
+
+   ![3EB270A6-54E9-4120-B2F9-DC6E9BEA7DEA](../assets/images/3EB270A6-54E9-4120-B2F9-DC6E9BEA7DEA.png)
 
 3. 信息登记
 
    主体类型选择个人。
 
+   ![AF5D5C71-A9F6-4751-84B2-36B435F51E48](../assets/images/AF5D5C71-A9F6-4751-84B2-36B435F51E48.png)
+
 4. 登录小程序管理后台
 
+   ![71A90F58-585C-47F3-8652-089A84DD10DA](../assets/images/71A90F58-585C-47F3-8652-089A84DD10DA.png)
+
 5. 完善小程序信息
+
+   
 
 ### 安装微信开发工具
 
