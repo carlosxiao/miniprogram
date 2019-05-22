@@ -110,6 +110,78 @@ Page({
 
 #### 列表渲染
 
+```xml
+<view>
+	<block wx:for="{{items}}" wx:for-item="item" wx:key="index">
+    	<view>{{index}}:{{item.name}}</view>
+    </block>
+</view>
+```
+
+```javascript
+Page({
+    data: {
+        items: [
+            {name: "法顶1"},
+            {name: "法顶2"},
+            {name: "法顶3"},
+            {name: "法顶4"},
+            {name: "法顶5"}
+        ]
+    }
+})
+```
+
+![1558533419623](../assets/images/1558533419623.png)
+
 #### 条件渲染
 
+```xml
+<view>谁取餐?</view>
+<view wx:if="{{condition == 1}}">
+张三
+</view>
+<view wx:elif="{{condition == 2}}">
+李四
+</view>
+<view wx:else>
+王五
+</view>
+```
+
+```javascript
+Page({
+    data: {
+        condition: Math.floor(Math.random()*3 + 1)
+    }
+})
+```
+
+
+
 #### 模板引用
+
+```xml
+<template name="tempItem">
+<view>
+    <view>收件人：{{name}}</view>
+    <view>电话：{{mobile}}</view>
+    <view>地址：{{address}}</view>
+</view>
+</template>
+
+<template is="tempItem" data="{{...item}}"></template>
+```
+
+```javascript
+Page({
+    data: {
+        item: {
+            name: "cc",
+            mobile: "13800138000",
+            address: "北京市东城区东四十条"
+        }
+    }
+})
+```
+
