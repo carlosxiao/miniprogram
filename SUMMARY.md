@@ -12,12 +12,24 @@
 * [第三章：微信小程序开发框架](chapter03/README.md)
   * [第一节：WXML介绍](chapter03/wxml.md)
   * [第二节：WXSS介绍](chapter03/wxss.md)
-  * [第三节：MINA框架介绍](chapter03/mina.md)
-  * [第四节：小程序运行和加载机制](chapter03/runtime.md)
-  * [第五节：小程序事件和生命周期](chapter03/event-lifecycle.md)
+  * [第三节：事件](chapter03/event.md)
 * [第四章：微信小程序开发之原生组件](chapter04/README.md)
+  * [媒体组件](chapter04/media.md)
+  * [视图容器](chapter04/view_container.md)
+  * [地图](chapter04/map.md)
+  * [基础内容](chapter04/basic_content.md)
+  * [表单组件](chapter04/form.md)
+  * [导航](chapter04/nav.md)
 * [第五章：微信小程序之原生API介绍](chapter05/README.md)
+  * [网络](chapter05/network.md)
+  * [媒体](chapter05/media.md)
+  * [文件](chapter05/file.md)
+  * [数据缓存](chapter05/storage.md)
+  * [位置](chapter05/location.md)
+  * [设备](chapter05/device.md)
 * [第六章：微信小程序开发之项目实战](chapter06/README.md)
+
+
 
 
 
